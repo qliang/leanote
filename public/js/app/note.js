@@ -33,8 +33,8 @@ Note.notebookIds = {}; // notebookId => true
 
 Note.isReadOnly = false;
 // 定时保存信息
-Note.intervalTime = 600 * 000; // 600s, 10mins
-Note.intervalTime = 10 * 1000; // 10s
+Note.intervalTime = 600 * 1000; // 600s, 10mins
+//Note.intervalTime = 10 * 1000; // 10s
 Note.startInterval = function() {
 	clearInterval(Note.interval);
 	Note.interval = setInterval(function() {
